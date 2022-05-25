@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Expenses chart component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: hsl(28, 6%, 40%);
+      }
+      .attribution a {
+        color: hsl(28, 10%, 53%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="balance">
+        <div class="text">
+          <h3>My balance</h3>
+          <h1>$921.48</h1>
+        </div>
+        <svg
+          width="72"
+          height="48"
+          viewBox="0 0 72 48"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g fill="none" fill-rule="evenodd">
+            <circle fill="#382314" cx="48" cy="24" r="24" />
+            <circle stroke="#FFF" stroke-width="2" cx="24" cy="24" r="23" />
+          </g>
+        </svg>
+      </div>
+      <div class="spend">
+        <h2>Spending - Last 7 days</h2>
+        <div class="chart">
+          <div class="bar-text">
+            <div class="detail">xxx</div>
+            <div class="bar"></div>
+            <h5>mon</h5>
+          </div>
+          <div class="bar-text">
+            <div class="detail">xxx</div>
+            <div class="bar"></div>
+            <h5>tue</h5>
+          </div>
+          <div class="bar-text">
+            <div class="detail">$52.36</div>
+            <div class="bar"></div>
+            <h5>wed</h5>
+          </div>
+          <div class="bar-text">
+            <div class="detail">xxx</div>
+            <div class="bar"></div>
+            <h5>thu</h5>
+          </div>
+          <div class="bar-text">
+            <div class="detail">xxx</div>
+            <div class="bar"></div>
+            <h5>fri</h5>
+          </div>
+          <div class="bar-text">
+            <div class="detail">xxx</div>
+            <div class="bar"></div>
+            <h5>sat</h5>
+          </div>
+          <div class="bar-text">
+            <div class="detail">xxx</div>
+            <div class="bar"></div>
+            <h5>sun</h5>
+          </div>
+        </div>
+        <hr />
+        <div class="info">
+          <div class="left">
+            <h3>Total this month</h3>
+            <h1>$478.33</h1>
+          </div>
+          <div class="right">
+            <h4>+2.4%</h4>
+            <h3>from last month</h3>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/Nicole-Norris" target="_blank"
+          >Nicole Norris</a
+        >.
+      </div>
+    </footer>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
